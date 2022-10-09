@@ -260,6 +260,11 @@ class _MapAndClustersState extends State<MapAndClusters> with AfterLayoutMixin {
     }
 
     return GoogleMap(
+      myLocationButtonEnabled: false,
+      mapToolbarEnabled: false,
+      minMaxZoomPreference: const MinMaxZoomPreference(4, 50),
+      myLocationEnabled: true,
+      buildingsEnabled: true,
       markers: markers,
       initialCameraPosition: mapState.initialCameraPosition,
       onMapCreated: (GoogleMapController controller) {

@@ -65,21 +65,19 @@ packages:
   flutter_dev_utils:
     dependency: transitive
     description:
-      path: "."
-      ref: main
-      resolved-ref: "281deb4e7d9ad3f74f9bb64d5c2f4f018ec574d0"
-      url: "https://github.com/Kek-Tech/flutter_dev_utils.git"
-    source: git
-    version: "0.0.1"
+      name: flutter_dev_utils
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.2"
   flutter_google_maps_widget_cluster_markers:
     dependency: "direct main"
     description:
       path: "."
-      ref: dev
-      resolved-ref: "0473dd0d1947ff87e4043492741b827b743fe82f"
-      url: "https://github.com/Kek-Tech/flutter_google_maps_widget_cluster_markers.git"
+      ref: main
+      resolved-ref: "11ec177ecef78c199daa1bbd31a5889c6fd2b1ef"
+      url: "https://github.com/AristideVB/flutter_google_maps_widget_cluster_markers"
     source: git
-    version: "0.0.1"
+    version: "0.0.1+1"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -144,11 +142,9 @@ packages:
   logger:
     dependency: transitive
     description:
-      path: "."
-      ref: master
-      resolved-ref: "817dedd89c41c93d5523d94d7e25aeb49edec532"
-      url: "https://github.com/Kek-Tech/logger.git"
-    source: git
+      name: logger
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "1.1.0"
   matcher:
     dependency: transitive
@@ -275,5 +271,5 @@ packages:
     source: hosted
     version: "2.1.2"
 sdks:
-  dart: ">=2.18.0-271.7.beta <3.0.0"
+  dart: ">=2.18.0 <3.0.0"
   flutter: ">=3.0.0"
